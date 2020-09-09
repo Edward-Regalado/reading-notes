@@ -19,7 +19,7 @@
 
 ### Fixed Mindset
 * Avoids Challenges 
-* Losesb Focus on Obstacles
+* Loses Focus on Obstacles
 * Unproductive or useless
 * Ignores Criticism
 
