@@ -17,7 +17,7 @@
 * Maximum effort      
 * Learns from Criticism 
 
-### Fixed Midset
+### Fixed Mindset
 * Avoids Challenges 
 * Losesb Focus on Obstacles
 * Unproductive or useless
