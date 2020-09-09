@@ -9,7 +9,9 @@
 ### My name is Tony Regalado. I'm a huge PC gamer, car ethusiast and animal lover. [GitHub](https://github.com/EddieRegal)
 
 ## These are my reading notes...
+
 ### Growth Midset      ### Fixed Midset
-* Embraces Challenges  * Avoids Challenges 
-*                      *  
-*                  *
+* Embraces Challenges   * Avoids Challenges 
+* Persists Obstacles    * Loses Focus on Obstacles  
+* Maximum effort        * Unproductive or useless
+* Learns from Criticism * Ingnores Criticism
