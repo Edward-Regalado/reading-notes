@@ -10,8 +10,15 @@
 
 ## These are my reading notes...
 
-### Growth Midset      ### Fixed Midset
-* Embraces Challenges   * Avoids Challenges 
-* Persists Obstacles    * Loses Focus on Obstacles  
-* Maximum effort        * Unproductive or useless
-* Learns from Criticism * Ingnores Criticism
+### Growth Midset      
+* Embraces Challenges   
+* Persists Obstacles     
+* Maximum effort      
+* Learns from Criticism 
+
+### Fixed Midset
+* Avoids Challenges 
+* Losesb Focus on Obstacles
+* Unproductive or useless
+* Ignores Criticism
+
