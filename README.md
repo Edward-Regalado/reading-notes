@@ -46,3 +46,47 @@
 * Similar to Microsoft Outlook - email client, calender, to-do list, task manager
 * Probablly not needed for a beginner web dev
 
+### Command line or terminal
+* text based interface to the OS
+* Use keyboard to type commands after prompt (user@bash)
+* Command is always the first thing you type (ls), then command line arguments (-l/home/ryan)
+* Use spaces between command and the first command line argument (ls -l/home/ryan)
+* The first command line argument (ls) is also referred to as the option for modifying the behaviour of the command
+* Options are usually listed before other arguments and typically start with a dasy (-)
+* Most commands produce output texts just below the command line, some just perform their task(s) w/no display unless there was an error
+* Prompt (user@bash) will be displayed again once the current command is complete - terminal is ready for anther command 
+
+### Opening a terminal 
+* Mac: Applications -> Utilities or 'command + space' (spotlight), then type Terminal 
+* Linus: Applications -> System/Utilites or right-click on desktop 'Open in terminal'
+* Windows: Need to SSH client like Putty 
+
+### The Shell, Bash
+* Shells are within ternimal, defines how terminal looks and behaves after running/executing commands
+* Verious Shells availible- most common is Bash (Bourne again shell)
+* Use command **echo** to display current shell
+
+### Shortcuts on Linux
+* commands are stored in a history, use up and down arrows to transvse history
+* no need to re-type commands over and over again 
+* can also edit these stored commands- use the left and right arrows to move cursor 
+
+### Basic Navigation 
+* learn basics of movingi around the system - tasks rely on being able to get to or reference the correction location
+* helps work effectively in Linux  
+* pwd (print working directory) tells you what your current/present directory and is **very helpful so use it often** 
+* Command (ls) list what's in our current directory
+* use square brackets (ls [options] [location]) means items are optional
+* Most basic form (ls) single command line option
+* Long listing (ls -l) displays file (-) or directory (d), owner, file size, # of blocks, modification time, group/directory of file, file name
+* List directory contents (ls /etc) or (ls -l /etc) to long list current directory contents
+
+### Paths 
+* Linux files and directories on command line are called Paths
+* Paths get to a particular file or directory (- or d)
+* Absolute or Relatives Paths: can use either type, system will be directed to same location
+* Linus file system is Hierarchical strucutre, very top is called **Root** directory (/) and has subdirectories within subdirectories
+* Absolute specify a location (- or d) relative to root (/) directory, Relative specify a location (- or d) to current location and don't begin with a slash
+* Shortcuts: ~(tilde) shortcut for home directory... /home/ryan/Documents or ~/Documents
+* Shortcuts: .(dot) reference to Relative/current directory.. ls Documents or ./Documents 
+* Shortcuts: ..(dotdot) refernce to Parent directory- used to move up the hierarchy (/home/ryan or run command ../../)
