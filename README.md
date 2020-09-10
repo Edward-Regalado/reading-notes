@@ -90,3 +90,28 @@
 * Shortcuts: ~(tilde) shortcut for home directory... /home/ryan/Documents or ~/Documents
 * Shortcuts: .(dot) reference to Relative/current directory.. ls Documents or ./Documents 
 * Shortcuts: ..(dotdot) refernce to Parent directory- used to move up the hierarchy (/home/ryan or run command ../../)
+* Change Directory (cd) if you run without any arguments it will take you back to your home directory, however, (cd) usually ran with single command line
+* Shortcuts: Tab Completion- hit tab key (once or multiple times) while typing command for auto complete action
+
+### More About Files
+* Linux- everything on your system is a file from text, keyboard, monitors, directories, etc. 
+* Linux is an Extensionless System - file.exe (program, excutable file), file.txt (text file), file.png/gif/jpg (image file)
+* Linux is case sensitive - same file name with letters of different case (file1.txt FILE1.txt File1.TXT)
+* Command lines are also case sensitive - (ls verus lS) do different things
+* Spaces in names - valid in files and directory names but be careful becausae it came be seen as two command lines arguments.
+  For example: user@bash: ls Documents 
+  file1.txt File.txt Holiday Photos 
+  ...
+  user@bash cd Holiday photos (incorrect) as cd moves into whichever directory is specified by the first command line argument only 
+* Identify to terminal that Holiday Photos is a single command line by using '', "" or escape character \ (Holiday\ Photos)
+* Shortcuts: Use Tab Completion before encountering the space, terminal will automatically escape any spaces for you
+* Hidden Files and Directories- if the file or direcdtory name begins with a .(full stop) then it's considered to be hidden, can be hidden for a variety of       reasons, 
+* To create a hidden file, simply rename file/directory beginning with a (.) or delete (.) to unhide
+* ls -a to show hidden files and directories- user@bash ls -a Documents 
+* file [path] obtain information about what type of file or directory is
+
+
+
+
+
+
