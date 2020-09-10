@@ -39,4 +39,10 @@
 * OS text editors work, but have less features, harder to write code, no "bells and whistles"
 * Make sure you're coding in plain text - no bold, italics or underlines options
 * For OS Text editor, Create folder on computer to store entire website, save files to the appropiate folder/sub-folder with correct extension (.html, .css)
-* Third Party options- NotePad++, TextWrangler/BB edit, Visual Studio Code, Atom, Brackets, Sublime Text, 
+* Third Party options- NotePad++, TextWrangler/BB edit, Visual Studio Code, Atom, Brackets, Sublime Text
+
+### IDE (Integrated Development Environment)
+* All-in-one package- text editor, compiler, debugger and file manager
+* Similar to Microsoft Outlook - email client, calender, to-do list, task manager
+* Probablly not needed for a beginner web dev
+
