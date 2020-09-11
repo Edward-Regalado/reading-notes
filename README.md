@@ -13,4 +13,3 @@
 - [class 1 reading notes](class1.md)
 - [class 2 reading notes](class2.md)
 - [class 3 reading notes](class3.md)
-- [class 4 reading notes](class4.md)
