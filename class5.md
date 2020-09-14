@@ -24,4 +24,4 @@
 * RGB Values- values for RBG are expressed as number between 0 and 255 (rgb 102, 205, 160)
 * HEX Codes- values represtn values for RBG in hexadecimal code (#66cdaa)
 * COLOR Names- represented by predifined names and limted in numbers (MediumAquaMarine)
-* HUE- hue is near to the colloquial idea of color.
+* HUE- hue is near to the colloquial idea of color
