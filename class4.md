@@ -67,5 +67,5 @@
 ### Asides <aside>
 * The <aside> element has two purpose depending on whether it is inside an <article> element of not
 * When the <aside> element is used inside an <article> element, it should contain info that is related to the article but not essential to its overall meaning
-* When the <aside> element is used outside of an <article> element, it acts as a container for content that is related to the entire page and might contain links to other sections fo the site, list of recent posts, a search box or recent tweets by the authoer
+* When the <aside> element is used outside of an <article> element, it acts as a container for content that is related to the entire page and might contain links to other sections fo the site, list of recent posts, a search box or recent tweets by the author
 
