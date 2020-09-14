@@ -36,5 +36,6 @@
 * <h2 class="aclass">A Subheading.</h2>   
 * <p class="acalss">Some more text.</p>
 * <p id="sometext">Some Text.</p>  #sometext {color: blue;}
+* class
 
 
