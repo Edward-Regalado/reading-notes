@@ -25,3 +25,22 @@
 * HEX Codes- values represtn values for RBG in hexadecimal code (#66cdaa)
 * COLOR Names- represented by predifined names and limted in numbers (MediumAquaMarine)
 * HUE- hue is near to the colloquial idea of color
+* Staturation refers to the amount of gray in a color. At maximum sat, there would be no gray in the color, at min sat the color would be mostly gray 
+* Brightness refers to how much black is in a color 
+* Contrast- when picking foreground and background colors, it is important to ensure that there is enough contrast for the text to be legible
+* CSS3 opacity property allows you to specify the opacity of an element and any of it's child elements (0.0 and 1.0) 0.5 being 50% opacity 
+
+### CSS3: HSL Colors 
+* CSS3 introduces a new and intiutive way to specify colors using hue, saturation and ligthness values
+* Hue is the colloquial idea of color and is often represented as a color cirle
+* Saturation is the amouth of gray in a color as percentages full sat 100%- 0% which is a shade of gray
+* Lightness, sometimes refferred to as luminosity, is the amount of white or black in a color. 0% equals black and 100% equal white. Lightness is a different concept to brightness.  
+*  HSL and Hsla <hsl>, <hsla> The hsl color property has been introduced in CSS3 as an alternative way to specify colors. The value of the property starts
+with the letters hsl, followedby individual values inside
+parentheses for: hue This is expressed as an angle
+(between 0 and 360 degrees)
+* Hue is expressed as an angle between 0 and 360 dgress
+* Saturation is expressed as a percentage
+* Lightness is expressed as a percentage with 0% being white, 50% normal and 100% black 
+* Alpha is expressed as a number between 0 and 1.0
+
