@@ -42,4 +42,15 @@ Every time the loop is run, the condition is check. Is the variable i still less
 }
 
 * The variable i can be used inside the loop. Here it is used to write a number to the page. When the statments have finished, the variable i is incremented by 1. When the conditoin is no longer true, the loop ends. The script moves to the next line of code. 
-        * is 8 < 10? add 1 to 8 and write to page: 8,  
+        * is 8 < 10? add 1 to 8 and write to page: 8,
+### Using while loops
+* here is an example of a while loop.. it writes out the 5 times table. Each time the loop is run, another calculation is written into the varibable called msg. 
+* var i = 1;    //set counter to 1
+* var msg = ''; //message
+* while (i < 10>) {                                       1x5=10
+*    msg += i + ' x 5 = ' + (i * 5) + '<br />;            2x5=10 
+*    i++;}                                                3x5=10.. etc          
+* Inside the code block there are two statements: the first usees the += operator, which is used to add new content to the (msg) variable. Each time the loops runs, a new calculation and line break is added to the end of the message. So, += works as shorthand for writing: msg = msg + 'new msg'
+* The second statement increments the counter vairable by one... this is done inside the loop rather tahn with the condition 
+* when loop finisnes, the interpreter goes to the next line of code, which writes the msg varibable to the page. 
+
