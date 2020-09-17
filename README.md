@@ -17,3 +17,5 @@
 - [class 4 reading notes](class4.md)
 - [class 5 reading notes](class5.md)
 - [class 6 reading notes](class6.md)
+- [class 7 reading notes](class7.md)
+- [class 8 reading notes](class8.md)
