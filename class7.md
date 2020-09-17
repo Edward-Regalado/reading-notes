@@ -106,4 +106,7 @@
 
 ### Calling a Function 
 * after delaring a function, you can execute all of the statements between its curly braces with just one line of code... this is **calling the function**
+* Arguments as values- when getArea(3, 5); is called, the number 3 will be used for witdh and 5 for height
+* Arguments as variable- you do not have to specifty actual values when calling a function - you can use variables in their place. for example: wallWidth = 3; wallHeight = 5; getArea(wallWidth, wallHeight); 
+
 
