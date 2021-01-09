@@ -1,4 +1,4 @@
-# reading-note
+# Class 102 Reading Notes
 
 
 ## Growth mindset is believing that your most basic abilities can be developed through dedication and hard work. This perspective creates a love of learning and a resilience that is essential for *advancement* and *great* accheivements. 
