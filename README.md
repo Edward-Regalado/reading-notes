@@ -24,7 +24,7 @@
 # Class 201 Reading Notes
 
 ## Table of Contents 
-- [link] (dailyreading.md)
+- [<link>]
 -
 -
 -
