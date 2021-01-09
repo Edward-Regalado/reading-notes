@@ -1,7 +1,7 @@
-# This website is dedicated to my reading notes while attending Code Fellows. 
+# ***This website is dedicated to my reading notes while attending Code Fellows.*** 
 
 
-# Class 102 Reading Notes
+# **Class 102 Reading Notes**
 
 ## Growth mindset is believing that your most basic abilities can be developed through dedication and hard work. This perspective creates a love of learning and a resilience that is essential for *advancement* and *great* accheivements. 
 
@@ -26,7 +26,7 @@
 
 
 
-# Class 201 Reading Notes
+# **Class 201 Reading Notes**
 
 ## Table of Contents 
 - [Daily Reading 1](201class1.md)
