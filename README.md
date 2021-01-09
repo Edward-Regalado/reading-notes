@@ -24,10 +24,10 @@
 # Class 201 Reading Notes
 
 ## Table of Contents 
-- >>link
--
--
--
+- [daily reading]
+- [daily reading]
+- [daily reading]
+- [daily reading]
 -
 -
 -
