@@ -25,7 +25,7 @@
 
 ## Table of Contents 
 - [daily reading](201class1.md)
-- [daily reading](class.md)
+- [daily reading](201class2.md)
 - [daily reading](class.md)
 - [daily reading](class.md)
 - [daily reading](class.md)
