@@ -25,17 +25,17 @@
 
 ## Table of Contents 
 - [daily reading](class.md)
-- [daily reading]
-- [daily reading]
-- [daily reading]
--
--
--
--
--
--
--
--
--
--
--
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
+- [daily reading](class.md)
