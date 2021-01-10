@@ -28,8 +28,8 @@
 
 # **Class 201 Reading Notes**
 
-## Table of Contents 
-- [Daily Reading 1](201class1.md)
+## Table of Contents
+- [Class 1](class-01.md)
 - [Daily Reading 2](201class2.md)
 - [Daily Reading 3](201class3.md)
 - [Daily Reading 4](201class4.md)
