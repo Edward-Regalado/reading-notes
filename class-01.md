@@ -33,7 +33,7 @@
 - id attribute is known as a global attribute bc it can be used on any element 
 - Every HTML element can also carry a class attribute and help to identify several elements in a document
 - Class value should describe the class it belongs to
-- Block elements always appear to start on a new line in the browser <h1>, <p>, <ul>, and <li>
+- Block elements always appear to start on a new line in the browser
 - Inline elements always appear to continue on the same line as their neigbouring elements <a>, <b>, <em>, and <img>
 - Grouping Text & Element in a block <div> allows you to group element together in one block-level box
 - Using an id or class attribute on the <div> element means that you can create CSS style rules to change appearance of all elements contained within it
