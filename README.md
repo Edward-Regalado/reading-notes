@@ -30,7 +30,7 @@
 
 ## Table of Contents
 - [Class 1](class-01.md)
-- [Daily Reading 2](201class2.md)
+- [Class 2](class-02.md)
 - [Daily Reading 3](201class3.md)
 - [Daily Reading 4](201class4.md)
 - [Daily Reading 5](201class5.md)
