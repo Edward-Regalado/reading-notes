@@ -185,3 +185,5 @@ Descendant Selector - matches an element that is a descendant of another specifi
 - the if statement evalutes (or checks) a condition. If the condition evaluates to true, any statement in the subsequest code block are executed
 - If.. Esle statments check a condition. If it resolves to true the first code block is executed. If the condition resolvee to fales, the second code block is run instead 
 
+
+
