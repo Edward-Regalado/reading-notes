@@ -193,7 +193,7 @@ p {
 ## While Loops 
 - this loop continues to run for as long as the condition in the parenthesis is true
 - That condition is a counter indicating that as long as (i < 10), the code block will run 
-- key difference between a while loop and a do while loop is that the statements in the code block come before the condition 
+- key difference between a while loop and a do while loop is that the statements in the code block come before the conditions. 
 
 
 
