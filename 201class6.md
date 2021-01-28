@@ -10,6 +10,8 @@
 ## Chapter 5: Document Object Model (p 183-242)
 - DOM specifies how browser should create a model of an html page and how JS can access and update the contents of a web page while it is in the br
 window
+- DOM is neither part of HTML or JS; it is a separate set of rules.
+- DOM also defines methods and properties to access and update each object in this model, which in turn updates what the user sees in the browser.
 - DOM is called object model because it made of objects
 - DOM Trees have 4 types of nodes: document nodes, element nodes, attribute nodes and text nodes
 - you can select element nodes by their id or class (.getElementByID) attributes, by tage name, or using CSS selector syntax
