@@ -9,7 +9,7 @@
 - Remembering that nothing is easy at first
 - I don't know how... **yet**!
 
-### My name is Tony Regalado. I'm a huge PC gamer, car ethusiast and animal lover. [GitHub](https://github.com/Edward-Regalado)
+### Hello, my name is Tony Regalado. I'm an aspiring full-stack Software Developer student currently living in Seattle and attending Code Fellows full-time. I'm a huge PC gamer, car ethusiast and animal lover. [GitHub](https://github.com/Edward-Regalado)
 
 
 ## **Class 102 Reading Notes**  
