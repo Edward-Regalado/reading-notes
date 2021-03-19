@@ -13,25 +13,19 @@
 
 
 ## **Class 102 Reading Notes**  
-- [class 1 reading notes](class1.md)
-- [class 2 reading notes](class2.md)
-- [class 3 reading notes](class3.md)
-- [class 4 reading notes](class4.md)
-- [class 5 reading notes](class5.md)
-- [class 6 reading notes](class6.md)
-- [class 7 reading notes](class7.md)
-- [class 8 reading notes](class8.md)
-
-
-
-
+- [class 1](class1.md)
+- [class 2](class2.md)
+- [class 3](class3.md)
+- [class 4](class4.md)
+- [class 5](class5.md)
+- [class 6](class6.md)
+- [class 7](class7.md)
+- [class 8](class8.md)
 
 # **Class 201 Reading Notes**
-
-## Table of Contents
-- [Class 1](class-01.md)
-- [Class 2](class-02.md)
-- [Class 3](class-03.md)
+- [Class 1](201class1.md)
+- [Class 2](201class2.md)
+- [Class 3](201class3.md)
 - [Class 4](201class4.md)
 - [Class 5](201class5.md)
 - [Class 6](201class6.md)
@@ -46,6 +40,19 @@
 - [Class 15](201class15.md)
 
 # **Class 301 Reading Notes**
-
-## Table of Contents
+- [Class 1](301class1.md)
+- [Class 2](301class2.md)
+- [Class 3](301class3.md)
+- [Class 4](301class4.md)
+- [Class 5](301class5.md)
+- [Class 6](301class6.md)
+- [Class 7](301class7.md)
+- [Class 8](301class8.md)
+- [Class 9](301class9.md)
+- [Class 10](301class10.md)
+- [Class 11](301class11.md)
+- [Class 12](301class12.md)
+- [Class 13](301class13.md)
+- [Class 14](301class14.md)
+- [Class 15](301class15.md)
 
