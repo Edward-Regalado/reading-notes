@@ -22,7 +22,7 @@
 - [class 7](class7.md)
 - [class 8](class8.md)
 
-# **Class 201 Reading Notes**
+## **Class 201 Reading Notes**
 - [Class 1](201class1.md)
 - [Class 2](201class2.md)
 - [Class 3](201class3.md)
@@ -39,7 +39,7 @@
 - [Class 14](201class14.md)
 - [Class 15](201class15.md)
 
-# **Class 301 Reading Notes**
+## **Class 301 Reading Notes**
 - [Class 1](301class1.md)
 - [Class 2](301class2.md)
 - [Class 3](301class3.md)
