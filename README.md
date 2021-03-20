@@ -37,7 +37,7 @@
 - [Class 15](201class15.md)
 
 ## **Class 301 - Intermediate Software Development**
-- [ES6](ES6 classes.md)
+- [ES6](ES6classes.md)
 - [Class 1](301class1.md)
 - [Class 2](301class2.md)
 - [Class 3](301class3.md)
