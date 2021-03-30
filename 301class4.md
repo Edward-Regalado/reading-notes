@@ -1,4 +1,29 @@
-## Forms 
+## Forms
+- The <FormControl> component renders a from control w/Bootstrap styling.
+- The <FormGroup> component wraps a from control with proper spacing, along with support for a label, help text, and validation state.
+- To ensure accessibility, set controlID on <FormGroup>, and use <FormLabel> for the label.
+- The <FormControl> directly renders the <input> or other specified component. 
+- For textual form controls, FC adds some additional styles for general appearance, focus state, sizing and more.
+- Use Form.File for file inputs. <Form.File id="exampleFormControlFile1" label="Example file input" />
+
+## Sizing 
+- Use size on <FormControl> and <FormLabel> to change the size of inputs and labels respectively.
+- <Form.Control size="lg" type="text" placeholder="Large text" />
+
+## Readonly
+- the readOnly prop on an input prevent modifications of the input's value.
+- <Form.Control type="text" placeholder="Readonly input here..." readOnly />
+
+## Layout
+- FormControl and FormCheck both apply display: block with width: 100% to controls.
+- Additional components and props can be used to vary this layout on a per-form basis.
+
+## Form groups
+- The FormGroup component is the easiest way to add some structure to forms.
+- Provides a flexible container for grouping of lables, controls, optional help text, and form validation messaging.
+- 
+
+## React Bootstrap - Forms
 - HTML form element work differently from other DOM elements in React
 - Controlled Components - In HTML, form element such as <input>, <textarea>, and <select> typically maintain their own state and update it based on user input. In React, mutable state is typically kept in the state property of components, an donly updated with setState().
 - Combine the two making the React state be the "single source of truth"
@@ -114,4 +139,3 @@
 ## File input Tag
 - In HTML, an <input type="file"> lets the user choose one or more files from their device storage to be uploaded ot a server or manipulated by JS via the File API.
 - Because it's value is read-onluy, it is an uncontrolled component in React.
-
