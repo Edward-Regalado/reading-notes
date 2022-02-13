@@ -55,6 +55,8 @@
 - [Class 15](301class15.md)
 
 ## **Class 401 - Advanced Software Development**
+
+### Python
 - [Class 1](401class1.md)
 - [Class 2](401class2.md)
 - [Class 3](401class3.md)
@@ -70,4 +72,21 @@
 - [Class 13](401class13.md)
 - [Class 14](401class14.md)
 - [Class 15](401class15.md)
+
+### Java
+- [Class 1](Java401class1.md)
+- [Class 2](Java401class2.md)
+- [Class 3](Java401class3.md)
+- [Class 4](Java401class4.md)
+- [Class 5](Java401class5.md)
+- [Class 6](Java401class6.md)
+- [Class 7](Java401class7.md)
+- [Class 8](Java401class8.md)
+- [Class 9](Java401class9.md)
+- [Class 10](Java401class10.md)
+- [Class 11](Java401class11.md)
+- [Class 12](Java401class12.md)
+- [Class 13](Java401class13.md)
+- [Class 14](Java401class14.md)
+- [Class 15](Java401class15.md)
 
