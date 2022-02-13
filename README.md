@@ -9,7 +9,8 @@
 ### Hello, my name is Tony Regalado. I'm an aspiring full-stack Software Developer student currently living in Seattle and attending Code Fellows full-time. I'm a huge PC gamer, car ethusiast and animal lover. [GitHub](https://github.com/Edward-Regalado)
 
 
-## **Class 102 - Intro to Software Development**  
+## **Class 102 - Intro to Software Development**
+
 - [class 1](class1.md)
 - [class 2](class2.md)
 - [class 3](class3.md)
@@ -20,6 +21,7 @@
 - [class 8](class8.md)
 
 ## **Class 201 - Foundations of Software Development**
+
 - [Class 1](201class1.md)
 - [Class 2](201class2.md)
 - [Class 3](201class3.md)
@@ -37,6 +39,7 @@
 - [Class 15](201class15.md)
 
 ## **Class 301 - Intermediate Software Development**
+
 - [ES6](ES6classes.md)
 - [Class 1](301class1.md)
 - [Class 2](301class2.md)
@@ -57,6 +60,7 @@
 ## **Class 401 - Advanced Software Development**
 
 ### Python
+
 - [Class 1](401class1.md)
 - [Class 2](401class2.md)
 - [Class 3](401class3.md)
@@ -74,6 +78,7 @@
 - [Class 15](401class15.md)
 
 ### Java
+
 - [Class 1](Java401class1.md)
 - [Class 2](Java401class2.md)
 - [Class 3](Java401class3.md)
@@ -89,4 +94,3 @@
 - [Class 13](Java401class13.md)
 - [Class 14](Java401class14.md)
 - [Class 15](Java401class15.md)
-
