@@ -161,3 +161,5 @@ RENAME TO new_table_name;
 - to remove an entire tabel including all of its data and metadata, use the DROP TABLE statment.
 - differs from the DELETE statement in that it also removes the table schema from the DB entirely.
 - DROP TABLE IF EXISTS mytable;
+
+![e1.PNG](e1.PNG)
