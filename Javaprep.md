@@ -162,4 +162,15 @@ RENAME TO new_table_name;
 - differs from the DELETE statement in that it also removes the table schema from the DB entirely.
 - DROP TABLE IF EXISTS mytable;
 
-![e1.PNG](e1.PNG)
+![e1](e1.PNG)
+![e2](e2.PNG)
+![e3](e3.PNG)
+![e4](e4.PNG)
+![e5](e5.PNG)
+![e6](e6.PNG)
+![e13](e13.PNG)
+![e14](e14.PNG)
+![e15](e15.PNG)
+![e16](e16.PNG)
+![e17](e17.PNG)
+![e18](e18.PNG)
