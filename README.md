@@ -79,7 +79,7 @@
 
 ### Java
 
-- [Prep: The Growth Mindset](Javaprep.md)
+- [Prep](Javaprep.md)
 - [Class 1](Java401class1.md)
 - [Class 2](Java401class2.md)
 - [Class 3](Java401class3.md)
