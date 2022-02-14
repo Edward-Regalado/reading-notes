@@ -1,4 +1,6 @@
-# The Growth Mindset
+# Java Prep
+
+## The Growth Mindset
 
 ## Upgrade your technical skills with deliberate practice
 
