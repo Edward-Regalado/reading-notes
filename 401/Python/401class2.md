@@ -1,5 +1,5 @@
 ## What is a File? 
-- Its a contiguous set of byes used to store data. This data is organized in a specific format and can be anything as simple as a text file or as complicated as a program executable.
+- Its a contiguous set of bytes used to store data. This data is organized in a specific format and can be anything as simple as a text file or as complicated as a program executable.
 Files are composed of 3 main parts: 
 1. Header: metadata about the contents of the file (name, size, type)
 2. Data: contents of the file as written by the creator or editor
