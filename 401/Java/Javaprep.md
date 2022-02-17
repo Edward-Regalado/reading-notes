@@ -52,7 +52,7 @@
 
 ### SQL Lesson 1: Select queries
 
-- To retrieve data from a SQL DB, we need to write SELECT statements, which are often cooloquially refered to as queries.
+- To retrieve data from a SQL DB, we need to write SELECT statements, which are often coloquially refered to as queries.
 - A query is simple just a statement which declares what data we are looking for, where to find it in the DB, and optionally, how to transform it before it is returned.
 - SELECT column1, column2 FROM mytable;
 
