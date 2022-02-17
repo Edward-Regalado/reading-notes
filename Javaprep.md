@@ -176,15 +176,40 @@ RENAME TO new_table_name;
 - differs from the DELETE statement in that it also removes the table schema from the DB entirely.
 - DROP TABLE IF EXISTS mytable;
 
-![e1](e1.PNG)
-![e2](e2.PNG)
-![e3](e3.PNG)
-![e4](e4.PNG)
-![e5](e5.PNG)
-![e6](e6.PNG)
-![e13](e13.PNG)
-![e14](e14.PNG)
-![e15](e15.PNG)
-![e16](e16.PNG)
-![e17](e17.PNG)
-![e18](e18.PNG)
+## Debuggin
+
+#### Breakpoint
+
+- suspends a programs execution before the suspected piece of code runs. Breakpoints indicate the lines of code where the program will be suspended for you to examine its state.
+
+#### Step-to-next-line
+
+- steps over the current line of code and takes you to the next line.
+
+#### Step-inside-function-call
+
+- debugger executes the function call statement and then pauses execution at the first line of the called function.
+- allows you check for logic errors in the function.
+
+#### Step-out-of-function-call
+
+- debugger executes the rest of the function without pausing, and then returns to the line after the function call and pauses.
+
+
+![HelloWorld](assets/IDEAhelloworld.PNG)
+![Debug](assets/debug1.PNG)
+![Debug2](assets/debug2.PNG)
+
+![e1](assets/e1.PNG)
+![e2](assets/e2.PNG)
+![e3](assets/e3.PNG)
+![e4](assets/e4.PNG)
+![e5](assets/e5.PNG)
+![e6](assets/e6.PNG)
+![e13](assets/e13.PNG)
+![e14](assets/e14.PNG)
+![e15](assets/e15.PNG)
+![e15](assetse15.PNG)
+![e16](assets/e16.PNG)
+![e17](assets/e17.PNG)
+![e18](assets/e18.PNG)
