@@ -10,7 +10,7 @@
 
 [GitHub](https://github.com/Edward-Regalado)  
 
-[LinkedIn)(https://www.linkedin.com/in/edward-regalado/)
+[LinkedIn](https://www.linkedin.com/in/edward-regalado/)
 
 ## **Class 102 - Intro to Software Development**
 
