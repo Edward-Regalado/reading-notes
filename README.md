@@ -82,7 +82,7 @@
 
 ### Java
 
-- [Prep](Javaprep.md)
+- [Prep](401/Java/Javaprep.md)
 - [Class 1](401/Java/Java401class1.md)
 - [Class 2](401/Java/Java401class2.md)
 - [Class 3](401/Java/Java401class3.md)
