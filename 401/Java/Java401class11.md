@@ -136,3 +136,8 @@ public class GreetingController {
 ### 5. Spring beans
 
 - Thymeleaf allows accessing beans registered at the Spring App Context with the `@beanName` syntax.
+
+## Sources
+
+[Spring](https://spring.io/guides/gs/serving-web-content/)
+[Thymeleaf](https://www.thymeleaf.org/doc/articles/springmvcaccessdata.html)
