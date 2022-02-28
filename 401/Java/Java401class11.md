@@ -42,10 +42,8 @@ public class GreetingController {
 	public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
 		model.addAttribute("name", name);
 		return "greeting";
-	}
+	}```
 
-}
-```
 - HTTP request are handled by a controller identified as `@Controller` annotation.
 - A `View` is responsible for rendering the HTML content.
 - The `@GetMapping` annotation ensures that HTTP GET request are mapped to the correct `greeting()`.
