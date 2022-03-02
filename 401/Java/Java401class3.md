@@ -1,4 +1,4 @@
-# Java Primities versus Ojbects
+# Java Primitives versus Objects
 
 - Java has a two-fold type system consisting of primitives such an `int`, `boolean` and reference types such as `Interger`, `Boolean`.
 - every primitive type corresponds to a reference type.
