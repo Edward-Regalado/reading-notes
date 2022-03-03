@@ -8,8 +8,7 @@
 - All real-world objects share two characteristics: they all have state and behavior.
 - Software objects store its state in fields (variable in some programming languages).
 - Methods operate on an object’s internal state and serve as the primary mechanism for object-to-object communication.
-- Data encapsulation: hiding internal state and requiring all interaction to be performed through an object’s method.
-- Benefit: Modularity, Information hiding, Code re-use, Plug-ability and debugging ease.
+- Data encapsulation: hiding internal state and requiring all interaction to be performed through an object’s method.- Benefit: Modularity, Information hiding, Code re-use, Plug-ability and debugging ease.
 
 ## Classes
 

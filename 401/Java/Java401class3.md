@@ -1,186 +1,109 @@
-# Obejct-Oriented Programming Concepts
+# Java Primitives versus Objects
 
-## Objects
+- Java has a two-fold type system consisting of primitives such an `int`, `boolean` and reference types such as `Interger`, `Boolean`.
+- every primitive type corresponds to a reference type.
+- every object contains a single value of the corresponding primitive type.
+- The wrapper classes are immutable(state cannot change once the object is constructed) and are final.
+- Java performs a conversion between the primitvie and reference types if an actual type is different from the declared one:
+    - `Interger j = 1;`
+    - `int i = new Interger();`
+- this conversion is called autoboxing.
 
-- an object is a software bundle of related state or behavior.
-- often used to model the real-world objects that you find in everyday life.
-- all objects have state and behavior. Dogs state (name, color, bread, hungry) and behavior (barking, running, fetching).
-- Fields (state) and Methods (behavior).
-- Objects stores its state in fields (variables in some programming languages) and exposes its behavior through methods.
-- Methods operate on an object's internal state and serve as the primary mechanism for object-to-object communication.
-- Data encapsulation: requires all interaction from an object via its methods.
-- An object's method(s) control how outside world is allowed to use it.
-- Benefits: Modularity, Information-hiding, Code re-use, Pluggability and debugging ease.
+## Single Item Memory Footprint
 
+- `boolean` - 1bit
+- `byte` - 8 bits
+- `short,char`- 16bits
+- `int, float` - 32bits
+- `long, double` - 64bits
 
-## Classes
+- primitive types live in the stack and are able to be accessed quite fast.
+- reference types live on the heap and are relatively slow to access.
+- `Boolean` - 128bits
+- `Byte` - 128bits
+- `Short, Character` - 128bits
+- `Interger, Float` - 128bits
+- `Long, Double` - 128bits
 
-- A blueprint prototype from which objects are created.
-- Bicycles are instances of the class of object known as Bicycles.
-- cadence, speed and gear represent the object's state, and the methods (changeCadence, changeGear, speedUp) define its interaction with the outside world.
-- `Bicycle` class does not contain a `main` method because it's not a complete application; just a blueprint for creating bicyles that might be used in an application. Creating the new `Bicycle` objects belongs some other class in your application.
-- Classes contains fields, constructor and methods.
+## What is an Exception
 
-class Bicycle {
+- an exception is an event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
+- when an error occurs within a method, the method created an object and hands it off to the runtime systme.
+- the excetion object contians information about the error (type, state of the program when it occurred,etc)
+- creating an exception object and handling it to the runtime system is called `throwing an exception`
+- after the exception, the RTS attempts to find something to handle it.
+- the RTS searches the call stack for a method that contains the block of code that can hangle the exception, called the exception handler.
 
-    int cadence = 0;
-    int speed = 0;
-    int gear = 1;
+## Catching and Handling exceptions
 
-    void changeCadence(int newValue) {
-         cadence = newValue;
+```
+// Note: This class will not compile yet.
+import java.io.*;
+import java.util.List;
+import java.util.ArrayList;
+
+public class ListOfNumbers {
+
+    private List<Integer> list;
+    private static final int SIZE = 10;
+
+    public ListOfNumbers () {
+        list = new ArrayList<Integer>(SIZE);
+        for (int i = 0; i < SIZE; i++) {
+            list.add(new Integer(i));
+        }
     }
 
-    void changeGear(int newValue) {
-         gear = newValue;
-    }
+    public void writeList() {
+	// The FileWriter constructor throws IOException, which must be caught.
+        PrintWriter out = new PrintWriter(new FileWriter("OutFile.txt"));
 
-    void speedUp(int increment) {
-         speed = speed + increment;   
-    }
-
-    void applyBrakes(int decrement) {
-         speed = speed - decrement;
-    }
-
-    void printStates() {
-         System.out.println("cadence:" +
-             cadence + " speed:" + 
-             speed + " gear:" + gear);
-    }
-}
-
-- Demo below shows the main function creating instances on the Bicycle class:
-
-class BicycleDemo {
-    public static void main(String[] args) {
-
-        // Create two different 
-        // Bicycle objects
-        Bicycle bike1 = new Bicycle();
-        Bicycle bike2 = new Bicycle();
-
-        // Invoke methods on 
-        // those objects
-        bike1.changeCadence(50);
-        bike1.speedUp(10);
-        bike1.changeGear(2);
-        bike1.printStates();
-
-        bike2.changeCadence(50);
-        bike2.speedUp(10);
-        bike2.changeGear(2);
-        bike2.changeCadence(40);
-        bike2.speedUp(10);
-        bike2.changeGear(3);
-        bike2.printStates();
+        for (int i = 0; i < SIZE; i++) {
+            // The get(int) method throws IndexOutOfBoundsException, which must be caught.
+            out.println("Value at: " + i + " = " + list.get(i));
+        }
+        out.close();
     }
 }
+```
+- the constructor initializes an output stream on a file and if the file cannot be opened, the constructor throws an `IOException`.
+- The `IndexOutOfBoundsException` is thrown if the argument is too small or too larger (larger than the array elements in the list).
+- `IOException` is a checked exception (thrown by the constructor)
+- `IndexOutOfBoundsException` is an unchecked exception and its thrown by the `get()` method.
 
-## Inheritance
+## Scanning
 
-- provides a powerful and natural mechanism for organizing and structuring your software.
-- Different objects often share certain characteristics.
-- Much like different types of bike
-- OOP allows classes to inherit commonly used state and behavior from other classes.
-- Each class in Java is allowed to have one direct superclass, while superclasses can have unlimited numbers of subclasses.
-- Bicyle(Superclass): Mountain Bike(sub-class), Road Bike(sub-class), Tandem Bike(sub-class)
-- syntax for creating a subclass: use the `extends` keyword followed by the class to inherit from.
-- know the superclass state and behavior when accessing with a subclass.
+- objects of type `Scanner` are useful for breaking down formatted input into tokens and translating individual token according to their data type.
 
-class MountainBike extends Bicycle {
+```
+import java.io.*;
+import java.util.Scanner;
 
-    // can access all of Bicycle methods and fields
-    // create new fields and methods for a mountain bike that make it unique
+public class ScanXan {
+    public static void main(String[] args) throws IOException {
 
+        Scanner s = null;
+
+        try {
+            s = new Scanner(new BufferedReader(new FileReader("xanadu.txt")));
+
+            while (s.hasNext()) {
+                System.out.println(s.next());
+            }
+        } finally {
+            if (s != null) {
+                s.close();
+            }
+        }
+    }
 }
-
-## Interface
-
-- an interface is a group of related methods with empty bodies.
-- Methods form the object's interface with the outside world.
-- Buttons on a calculator or TV remote form the interface.
-- Implementing an interface allow a class to become more formal about the behavior it promies.
-- Interfaces form a contract between the class and outside world, and this gets enfored at build time by compiler.
-- all methods defined by an interface must be in source code before the class will successfully compile.
-
-interface Bicycle {
-
-    //  wheel revolutions per minute
-    void changeCadence(int newValue);
-
-    void changeGear(int newValue);
-
-    void speedUp(int increment);
-
-    void applyBrakes(int decrement);
-}
-
-## Package
-
-- a namespace for organizing classes and interfaces in a logical manner.
-- placing code into packages makes large software projects easier to manage (think folders on your computer).
-- Java provides an enormous class library (set of packages) for use in your applications called "Application Programming Interface" or "API".
-- packages represent tasks most commonly used in general-purpose programming.
-- `File` object allows a dev to easily create, delete, inspect, compare or modify the filesystem.
-- `String` object contains state and behavior for character strings.
-- allows the programmer to focus on the design of your application, rather than having to build the infrastructure to make it work.
-
-## Review
-
-- Real-world objects contain **state** and **behavior**.
-- A software object's state is stored in **fields**.
-- A software object's behavior is exposed through **methods**.
-- Hiding internal data from the outside world, and accessing it only through publicly exposed methods is known as data **encapsulation**.
-- A blueprint for a software object is called a **class**.
-- Common behavior can be defined in a **superclass** and **inherited** into a **subclass** using the **extends** keyword.
-- A collection of methods with no implementation is called an **interface**.
-- A namespace that organizes classes and interfaces by functionality is called a **package**.
-The term API stands for **Application Programming Interface**.
+```
+- need to close the `Scanner` object to indicate you're done with its underlying stream.
+- `Scanner` supports tokens for all of the Java primitives types (except for char) as well as `BigInterger` and `BigDecimal`.
 
 
-## Declaring Classes
+### Sources
 
-- The class body {everything between the curly braces} contains all the code that provides life to all instances created from the classs.
-- **Constructors** for initializing new objects.
-- **Declarations** for the fields that provide state of the class and its objects
-- **Methods** to implement behavior of that class and its objects.
-
-- class MyClass {
-    //field, constructor and method declartions
-}
-
-### class declarations include:
-
-- public and private modifiers determine what other classes can access your class.
-- the class name with first letter capitalized.
-- name of parent superclass (if needed) followed by `extends` keyword.
-- comma-separated list of interface implemented by the class.
-- class body {}.
-
-## Declaring Member Variables
-
-- Member variables in a class (fields).
-- variables in a method or code block (local variables).
-- variables in method declorations (parameters).
-
-## Variable names
-
-- first letter of a class name capitalized
-- first word in a method name should be a verb.
-
-## Defining Methods
-
-- only required elements of a method declaration are return type, name, () and {}.
-- void data type is method doesn't return anything.
-- Method overloading: methods within a class can have the same name if they have different parameter lists- method parameters create the method signature. Use sparingly (makes code harder to read).
-
-## Providing Construtors for you Classes
-
-- constructors are invoke to create object from the class blueprint.
-- use the same name of the class and have no return type.
-- classes can have more than one constructor (no-arg constructor) as Java differntiates constructors based on teh number of arguments in the list and their types.
-
-## Passing Information to a Method or a Constructor
-
-Work-in-progress
+[Exceptions](https://docs.oracle.com/javase/tutorial/essential/exceptions/handling.html)  
+[Primitives versus Objects](https://www.baeldung.com/java-primitives-vs-objects)  
+[Scanner](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html)  
