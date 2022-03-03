@@ -4,7 +4,7 @@
 
 ### The Data Model
 
-- the two classes `Library` and `Address` have a one-to-one relationship, using teh `@OneToOne` annotation.
+- the two classes `Library` and `Address` have a one-to-one relationship, using the `@OneToOne` annotation.
 
 ```
 @Entity
@@ -96,7 +96,7 @@ curl -i -X POST -H "Content-Type:application/json"
 ```
 ### Creating the Associations
 
-- this is done using the HTTP method PUT, which supports  a media type of text/uri-list and a body containing the URI of the resource to bind to the association.
+- this is done using the HTTP method PUT, which supports a media type of text/uri-list and a body containing the URI of the resource to bind to the association.
 - returns a status 204 if successful
 
 ```
@@ -154,7 +154,7 @@ curl -i -X POST -d "{\"title\":\"Book1\"}"
 
 ### The Data Model
 
-- adds a new model class Author that will have a many-to-many relationship with the Boook entity:
+- adds a new model class Author that will have a many-to-many relationship with the Book entity:
 
 ```
 @Entity
@@ -191,8 +191,8 @@ public interface AuthorRepository extends CrudRepository<Author, Long> { }
 
 ### Enable Test with JUnit5
 
-- JUnit 5 define an extension interface through which classes can intergreate with the JUnit test
-- enable this extension by adding the @ExtendWith annotation to our test classes and specifying the extenion clas to load.
+- JUnit 5 define an extension interface through which classes can integrate with the JUnit test
+- enable this extension by adding the @ExtendWith annotation to our test classes and specifying the extenion class to load.
 - To run the Spring test, we use `SpringExtension.class`
 
 ```
