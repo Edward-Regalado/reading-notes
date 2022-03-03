@@ -49,4 +49,4 @@ the main method in your application is responsible for creating new class instan
 ### Sources
 
 [Object-Oriented Programming Concepts](https://docs.oracle.com/javase/tutorial/java/concepts/index.html)  
-[Interfaces and Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)  
+[Interfaces and Inheritance](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
