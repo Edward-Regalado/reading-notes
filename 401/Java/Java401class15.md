@@ -138,3 +138,4 @@ ALGORITHM postOrder(root)
 - BST - is a type of tree that does have some structure attached to it. Nodes are organized in a manner where all values that are smaller than the `root` are placed to the left, and all values that are larger than the `root` are placed to the right.
 - Compare to node you are searching for against the root of the tree or sub-tree, if the value is smaller, you only traverse the left side. If larger, only search the right side.
 - The best approach for a BST search is with a `while` loop: cycle through the while loop unti you hit a leaf, or until we match our value.
+
