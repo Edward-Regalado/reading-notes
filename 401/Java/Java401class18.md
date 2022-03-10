@@ -122,4 +122,10 @@ public class HibernateManyToManyAnnotationMainIntegrationTest {
 }
 ```
 
+### The World is Ours
+
+- create good passwords (don't use the same passwords!!)
+- web sercurity is difficult
+- assume that everyone on the internet is out to get you.
+
 [Baeldung](https://www.baeldung.com/hibernate-many-to-many) 
