@@ -225,3 +225,8 @@ con.getHeaderFields().entrySet().stream()
       fullResponseBuilder.append("\n");
 });
 ```
+
+## Sources
+
+[Daniel Golant](https://dev.to/dangolant/things-i-brushed-up-on-this-week-the-http-request-lifecycle-)
+[Baeldung](https://www.baeldung.com/java-http-request)
