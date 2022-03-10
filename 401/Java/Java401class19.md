@@ -26,3 +26,6 @@
 - array with constant-time access and update is a basic componenet of most imperative languages and many imperative DS, such as hash-tabel and binary heap, are based on arrays.
 - arrays can be relpaced by map or random access list, which admists purely functioanl implementation, but the access and update time is logarithmic.
 - purely functional DS can be used in languages which are non-functional, but may not be the most efficient tool available.
+
+### Sources
+[Wikipedia](https://en.wikipedia.org/wiki/Purely_functional_programming)
