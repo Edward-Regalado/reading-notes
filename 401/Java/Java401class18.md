@@ -121,3 +121,5 @@ public class HibernateManyToManyAnnotationMainIntegrationTest {
     // ...
 }
 ```
+
+[Baeldung](https://www.baeldung.com/hibernate-many-to-many) 
