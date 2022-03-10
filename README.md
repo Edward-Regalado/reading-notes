@@ -98,3 +98,7 @@
 - [Class 13](401/Java/Java401class13.md)
 - [Class 14](401/Java/Java401class14.md)
 - [Class 15](401/Java/Java401class15.md)
+- [Class 16](401/Java/Java401class16.md)
+- [Class 17](401/Java/Java401class17.md)
+- [Class 18](401/Java/Java401class18.md)
+- [Class 19](401/Java/Java401class19.md)
