@@ -5,26 +5,119 @@
 - Use the @JoinTable or @JoinColumn attribute connects the owner side of the relatioinship and the inverse colum to the other side.
 - On the target side, you only need to provide the name of the field with maps to the relationship @Many-to-Many(mappBy = "name_here")
 
-## Common Spring Annotations
+## Database Setup
 
-- @id - marks a field in a model class as the primary key
-- @Transient - marks a field in a model class as transient.
-- @CreatedBy, @LastModifiedBy, @CreatedDate, @LastModifiedDate - can audit our model classes: spring automatically populates the annotaed fields with the principle who created the object, last modified it, and the date of creation and last modified.
-- @Param - can pass named parameters to our queries.
-- @EnableJpaRepositories - indicates to spring that we intend to use this as a repo.(have to use @Configuration with it)
-- @Configuration - used on classes which defines bean as the source of the bean as the source of the bean file. A java class that is annotated with this will configure itself and import the methods to instantiate and config the dependencies.
-- @Controller - used with Spring MVC and Webflux. Detects the component class form the classpath and autoregister the bean definition.
-- @Requestmapping - used to map the web request. It can hold several optional components such as consumes, header, method names, params, path, etc.
-- @GetMapping - used to map the HTTP GET request on the specific handler method.
-- @PostMapping - used for mapping HTTP POST requests onto the specific handler method.
-- @PutMapping - maps the HTTP PUT request.
-- @ DeleteMappig - maps the HTTP DELETE request.
-- @RequestBody - used to bind the HTTP request with an object in a method paramter.
-- @ResponeBody - used to bind the method return value to the response body.
-- @PathVariable - extracts the values from the URL
-- @RequestParam - queury parameter used to extract teh query parameters from the URL.
-- @RequestHeader - gets the details about the HTTP request headers. It can be used as a method param.
-- @RestController - combination of @Controller and @ResponseBody annotations. 
-- @RequestAttribute - wraps a method parameter to the request attribute.
-- @CookieValue - used at the method parameter level. It's used as request mapping method's argument.
-- @CrossOrigin - used both at the class & method level. It's sued to enable cross-origin request.
+- create the employee and project tables along with the employee_project join table with `employee_id` and `project_id` as foreign keys
+- afte the DB is setup, prep dependencies and Hibernate config
+
+```
+CREATE TABLE `employee` (
+  `employee_id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(50) DEFAULT NULL,
+  `last_name` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`employee_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `project` (
+  `project_id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`project_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `employee_project` (
+  `employee_id` int(11) NOT NULL,
+  `project_id` int(11) NOT NULL,
+  PRIMARY KEY (`employee_id`,`project_id`),
+  KEY `project_id` (`project_id`),
+  CONSTRAINT `employee_project_ibfk_1` 
+   FOREIGN KEY (`employee_id`) REFERENCES `employee` (`employee_id`),
+  CONSTRAINT `employee_project_ibfk_2` 
+   FOREIGN KEY (`project_id`) REFERENCES `project` (`project_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
+
+## The Model Classes
+
+- the model classes Employee and Project need to be created with JPA annotations.
+- both Employee and Project classes refer to one another, which means that the association between them is bidirectional.
+- in order to map many-to-many association, use the `@ManyToMany`, `@JoinTable` and `@JoinColumn` annotations
+- `ManyToMany` annotation is used on both classes to create the relationship.
+- the association has two side: the owning side and teh inverse side. In this example, the owning side is the employee side, specified by use the `@JoinTable` annotation in the class.
+- `@JoinColumn` used to specify the join/linking column with the main table (employee_id and project_id)
+
+```
+@Entity
+@Table(name = "Employee")
+public class Employee { 
+    // ...
+ 
+    @ManyToMany(cascade = { CascadeType.ALL })
+    @JoinTable(
+        name = "Employee_Project", 
+        joinColumns = { @JoinColumn(name = "employee_id") }, 
+        inverseJoinColumns = { @JoinColumn(name = "project_id") }
+    )
+    Set<Project> projects = new HashSet<>();
+   
+    // standard constructor/getters/setters
+}
+@Entity
+@Table(name = "Project")
+public class Project {    
+    // ...  
+ 
+    @ManyToMany(mappedBy = "projects")
+    private Set<Employee> employees = new HashSet<>();
+    
+    // standard constructors/getters/setters   
+```
+
+## Execution
+
+- wrie the following JUnit test:
+
+```
+public class HibernateManyToManyAnnotationMainIntegrationTest {
+    private static SessionFactory sessionFactory;
+    private Session session;
+
+    // ...
+
+    @Test
+    public void givenData_whenInsert_thenCreatesMtoMrelationship() {
+        String[] employeeData = { "Peter Oven", "Allan Norman" };
+        String[] projectData = { "IT Project", "Networking Project" };
+        Set<Project> projects = new HashSet<>();
+
+        for (String proj : projectData) {
+            projects.add(new Project(proj));
+        }
+
+        for (String emp : employeeData) {
+            Employee employee = new Employee(emp.split(" ")[0], 
+              emp.split(" ")[1]);
+ 
+            assertEquals(0, employee.getProjects().size());
+            employee.setProjects(projects);
+            session.persist(employee);
+ 
+            assertNotNull(employee);
+        }
+    }
+
+    @Test
+    public void givenSession_whenRead_thenReturnsMtoMdata() {
+        @SuppressWarnings("unchecked")
+        List<Employee> employeeList = session.createQuery("FROM Employee")
+          .list();
+ 
+        assertNotNull(employeeList);
+ 
+        for(Employee employee : employeeList) {
+            assertNotNull(employee.getProjects());
+        }
+    }
+
+    // ...
+}
+```
