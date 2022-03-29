@@ -638,3 +638,10 @@ public class NameTuple {
 @Query("SELECT first_name, last_name FROM user")
 public List<NameTuple> loadFullName();
 ```
+
+### Sources 
+
+[Android](https://developer.android.com/training/data-storage/room)  
+[Android](https://developer.android.com/training/data-storage/room/defining-data)  
+[Android](https://developer.android.com/training/data-storage/room/relationships)  
+[Android](https://developer.android.com/training/data-storage/room/accessing-data#java)  
