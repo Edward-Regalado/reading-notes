@@ -76,5 +76,5 @@ public void greeterSaysHello() {
 
 ### Sources
 
-[Android for Developers](https://developer.android.com/training/testing/espresso)
-[Android for Developers](https://developer.android.com/studio/test/other-testing-tools/espresso-test-recorder)
+[Android for Developers](https://developer.android.com/training/testing/espresso)  
+[Android for Developers](https://developer.android.com/studio/test/other-testing-tools/espresso-test-recorder)  
