@@ -50,3 +50,7 @@
   - Google Pay API enables fast, simple checkout within your app, and gives your convenient access to hundreds of millions of cards saved to Google Account worldwide.
   - when users taps on the Google Pay payment button, they see a payment sheet that displays the payment methods saved to their Google Account, as well as optional fields such as a shipping address field.
   - Users can quickly select a payment method, add an optional shipping address, or add new information.
+
+### Sources
+
+[Google](https://developer.android.com/distribute/best-practices/earn/monetization-options)
