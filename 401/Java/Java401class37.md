@@ -4,7 +4,7 @@
 - Users can store and protect any amount of data for a range of use cases (data lakes, webistes, mobile apps, backkup and restore, archive, enterprise apps, IoT devices and big data analytics)
 - Provides management features to help organize, optimize and configure access to your data.
 
-## Storage Classese
+## Storage Classes
 
 - S3 offers a range of storage classes desing for different use cases.
 - store data with changing or unknown access patterns in S3 Intelligent-Tiering, which optimizes storage cost by auto moving your data between four access tiers when your access patterns change.
