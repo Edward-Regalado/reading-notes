@@ -115,3 +115,7 @@
 - [Class 36](401/Java/Java401class36.md)
 - [Class 37](401/Java/Java401class37.md)
 - [Class 38](401/Java/Java401class38.md)
+- [Class 39](401/Java/Java401class39.md)
+- [Class 40](401/Java/Java401class40.md)
+- [Class 41](401/Java/Java401class41.md)
+- [Class 42](401/Java/Java401class42.md)
