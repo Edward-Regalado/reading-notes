@@ -75,7 +75,7 @@ dependencies {
 
 - calling the `MobileAds.initialize()` will initialize the SDK and calls back a completion listener once this is complete.
 - this needs to be done only once.
-- ads may be preloaded by the SDK or mediation parnter SDKs upon calling the initializer.
+- ads may be preloaded by the SDK or mediation partner SDKs upon calling the initializer.
 
 ```
 import com.google.android.gms.ads.MobileAds;
