@@ -119,7 +119,9 @@
 - [Class 40](401/Java/Java401class40.md)
 - [Class 41](401/Java/Java401class41.md)
 - [Class 42](401/Java/Java401class42.md)
-
+- [Class 43](401/Java/Java401class43.md)
+- [Class 44](401/Java/Java401class44.md)
+- [Class 45](401/Java/Java401class45.md)
 
 ### JavaScript
 
