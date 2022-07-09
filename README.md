@@ -122,3 +122,10 @@
 - [Class 43](401/Java/Java401class43.md)
 - [Class 44](401/Java/Java401class44.md)
 - [Class 45](401/Java/Java401class45.md)
+
+### JavaScript
+
+- [Prep](401/Javascript/prep.md)  
+- [Class 1](401/Javascript/class01.md)  
+- [Class 2](401/Javascript/class02.md)
+- [Class 3](401/Javascript/class03.md)
