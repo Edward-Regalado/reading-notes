@@ -37,8 +37,25 @@
 [Grit: Passion and Perseverance](https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance)  
 [Philosophy of success](https://www.ted.com/talks/alain_de_botton_a_kinder_gentler_philosophy_of_success)  
 
+## Practice in the Terminal
 
-## Indroduction to SQL
+1. The Command Line - it is a text based interface to the system. You are able to enter commands by typing them on the keyboard and feedback will be given to you similarly as text. CLI typically presents you with a prompt, as you type it will be displayed after the prompt. 
+
+2. PWD stand for Print Working Directory. The Command tells you what your current or present directory is. Many commands in the CLI will rely on you being in the right location.
+
+3. Everything is a file. A text file. a directory, your keyboard, and even your monitor. Linux is an Extensionless system. Linux system actually ignores the extension and looks inside the file to determine what type of file it is. Linux is case sensitive. Spaced in file and directory names are fine but you need to be careful. 
+
+4. Manual pages are a set of pages that explain every command available on your system including what they do, how you run them and what command line argument they accept.  You invoke the manual pages with the following command: man(command to look up)
+
+5. Linux organizes it's file system in a hierarchical way. It's important that we create a directory structure that will help us organize that data in a manageable way. Develop the habit of organizing your stuff into an elegant file structure now because it will benefit you in the long run. 
+
+6. The cheat sheet is intended to be a quick reminder for the main concepts involved in using the CLI and assumes you already understand their usage.
+
+### Sources
+
+[The Command Line](https://ryanstutorials.net/linuxtutorial/commandline.php)
+
+## Introduction to SQL
 
 - Structured Query Language is a language design to allow both tehcnical and non-technical users query, manipulate, and transform data from a relational database.
 - Safe and scalable storage for millions of websites and mobile apps.
@@ -50,7 +67,7 @@
 - A query is simple just a statement which declares what data we are looking for, where to find it in the DB, and optionally, how to transform it before it is returned.
 - SELECT column1, column2 FROM mytable;
 
-### SQL Lession 2: Queries with constraints
+### SQL Lesson 2: Queries with constraints
 
 - use WHERE clause in the query to filter out search results.
 - SELECT column1, column2 FROM mytable WHERE condition AND/OR condition2 AND/OR condition3..;
