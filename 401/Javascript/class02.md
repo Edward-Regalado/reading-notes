@@ -27,6 +27,7 @@
 ## Things I want to know more about
 
 - what are best practices in agile Test-driven development.
+- how GitHub works behind the scenes with CI/CD.
 
 ## Sources
 
