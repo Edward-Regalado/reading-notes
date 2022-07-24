@@ -128,4 +128,5 @@
 - [Prep](401/Javascript/prep.md)  
 - [Class 1](401/Javascript/class01.md)  
 - [Class 2](401/Javascript/class02.md)
-- [Class 3](401/Javascript/class03.md)
+- [Class 3](401/Javascript/class03.md)  
+- [Class 5](401/Javascript/class05.md)
