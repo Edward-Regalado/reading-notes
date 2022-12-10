@@ -131,3 +131,4 @@
 - [Class 3](401/Javascript/class03.md)  
 - [Class 5](401/Javascript/class05.md)
 - [Class 42](401/Javascript/class42.md)
+- [Class 43](401/Javascript/class43.md)
